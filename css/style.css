@@ -131,10 +131,28 @@ nav a:hover{
 .card-items{
     width: 24%;
     height: auto;
+    box-shadow: 3px 3px 10px gray;
 }
 
 .card-items img{
     width: 100%
+}
+.card-items h2{
+    font-weight: 600;
+    font-size: 31px;
+    margin: 20px;
+}
+.card-items p{
+    margin: 10px 0 20px 20px;
+}
+.card-items a{
+    display: inline-block;
+    margin: 10px 0 30px 20px;
+    padding: 10px 14px;
+    background: #0067B8;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
 }
 .section-2 {
     background: url('../img/land.avif');
