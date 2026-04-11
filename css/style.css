@@ -154,10 +154,27 @@ nav a:hover{
     font-weight: 600;
     border-radius: 3px;
 }
+
+/* Section 2---------------------------------- */
 .section-2 {
     background: url('../img/land.avif');
+    background-size: cover;
     height: 510px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
+.landing-2{
+    background: white;
+    width: 510px;
+    height: 48%;
+    margin-right:75px;
+    padding: 30px;
+    box-shadow: none;
+    
+}
+
+/* Business Section------------------------------------- */
 .business{
     width:90%;
     margin:auto;
@@ -169,7 +186,7 @@ nav a:hover{
 }
 
 
-/* Footer */
+/* Footer---------------------------------------------------------------------- */
 footer {
     width:100%;
     height: auto;
