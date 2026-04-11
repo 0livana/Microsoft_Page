@@ -184,6 +184,12 @@ nav a:hover{
     gap:2%;
     margin:30px 0;
 }
+.social-media{
+    display: flex;
+    width: 15%;
+    margin: 55px 0;
+    justify-content: space-around;
+}
 
 
 /* Footer---------------------------------------------------------------------- */
@@ -191,4 +197,42 @@ footer {
     width:100%;
     height: auto;
     background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+    margin-top: 80px;
+    color: #616161;
+}
+.up-footer{
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+}
+
+
+.down-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.down-right-footer, .down-left-footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.down-left-footer{
+   width: 27%;
+}
+.down-right-footer{
+    width: 40%
+}
+
+li{
+    list-style: none;
+    font-size: 11px;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
