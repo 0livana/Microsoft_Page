@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Myfonts --------------------------------------- */
+/* My-fonts --------------------------------------- */
 @font-face {
     font-family: 'myFont';
     src: url(../fonts/segoe-ui/segoeUI.woff2) format('woff2');
@@ -43,7 +43,7 @@
 
 /* Body--------------------------*/
  body{
-    font-family: 'myFont';
+    font-family: 'myFont', 'san-serif';
  }
 
  /*nav --------------------------------*/
