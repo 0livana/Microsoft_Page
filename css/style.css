@@ -72,6 +72,8 @@ a:visited{
 }
 
 .left-nav{
+    margin-right: auto;
+    margin-left: 30px;
     display: flex;
     align-items: center;
     gap: 23px;
@@ -86,13 +88,17 @@ nav a:hover{
  .nav-no-hover-line:hover {
     border: none;
  }
+
+ button{
+    display:none;
+ }
 /* Hero --------------------------------- */
 .hero{
     margin: 10px 0px;
     width: 100%;
     height: 472px;
     background: url("../img/hero_bg.avif");
-    background-size: cover;
+    background-size: 100% 100%;
     
    
 }
@@ -143,11 +149,11 @@ nav a:hover{
     margin: 20px;
 }
 .card-items p{
-    margin: 10px 0 20px 20px;
+    margin: 10px 20px 20px;
 }
 .card-items a{
     display: inline-block;
-    margin: 10px 0 30px 20px;
+    margin: 10px 20px 30px;
     padding: 10px 14px;
     background: #0067B8;
     color: white;
@@ -166,10 +172,10 @@ nav a:hover{
 }
 .landing-2{
     background: white;
-    width: 510px;
-    height: 48%;
-    margin-right:75px;
-    padding: 30px;
+    width: 37.5%;
+    height: auto;
+    margin-right:67px;
+    padding: 30px 30px 20px;
     box-shadow: none;
     
 }
@@ -235,4 +241,95 @@ li{
 footer a:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+
+
+
+
+/* media queries------------------ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    button{
+        display: inline-block;
+        border: none;
+        background: white;
+        font-size: 1.5em;
+    }
+    nav li{
+        display: none;
+    }
+    nav img{
+        width: 100px;
+    }
+    nav{
+        margin: 4%
+    }
+    #nav-logo{
+        margin: auto;
+    }
+    .hero{
+        /* text-align: center; */
+        height: auto;
+        background-size: cover;
+        background-position: 80%;
+    }
+    .hero-content{
+        position: relative;
+        top: 300px;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 30px 0;
+    }
+    .hero-content h1{
+        font-size: 2rem
+    }
+    header{
+        margin-bottom: 290px;
+    }
+    .cards, .business-cards{
+        flex-direction: column;
+        gap: 40px;
+   
+    }
+
+    .card-items{
+        width: 100%
+    }
+    footer{
+        padding-left: 30px;
+    }
+    .up-footer, .down-footer{
+        flex-direction: column;   
+    }
+    .up-footer{
+        gap: 30px;
+    }
+    .down-right-footer, .down-left-footer{
+        width: 100%;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 15px
+
+    }
+    .landing-2{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 370px;
+        
+    }
+   .landing-2 *{
+    margin: 13px 8px!important;
+   }
+    .section-2{
+       margin-bottom: 280px;
+    }
+    .social-media{
+        width: 50%
+    }
+
 }
